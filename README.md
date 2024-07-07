@@ -1,7 +1,5 @@
 # ReVanced eXtended Magisk Module
-[![CI](https://github.com/nathannxx/extended/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/nathannxx/extended/actions/workflows/ci.yml)
-
-Extensive ReVanced builder  
+[![CI](https://github.com/nathannxx/extended/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/nathannxx/extended/actions/workflows/ci.yml)
 
 Get the [latest CI release](https://github.com/nathannxx/extended/releases).
 
