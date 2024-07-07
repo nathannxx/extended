@@ -1,5 +1,4 @@
 # ReVanced eXtended Magisk Module
-[![Telegram]
 [![CI](https://github.com/nathannxx/extended/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/nathannxx/extended/actions/workflows/ci.yml)
 
 Extensive ReVanced builder  
