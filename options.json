@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "patchName": "Custom package name",
+    "options": [
+      {
+        "key": "PackageNameYouTube",
+        "value": "nathx.rvx"
+      },
+      {
+        "key": "PackageNameYouTubeMusic",
+        "value": "nathx.rvx.muz"
+      }
+    ]
+  },
+  {
+    "patchName": "Settings for YouTube",
+    "options": [
+      {
+        "key": "RVXSettingsMenuName",
+        "value": "eXtended Settings"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom package name",
+    "options": [
+      {
+        "key": "PackageNameYouTube",
+        "value": "nathx.rvx"
+      },
+      {
+        "key": "PackageNameYouTubeMusic",
+        "value": "nathx.rvx.muz"
+      }
+    ]
+  }
+]
+        
