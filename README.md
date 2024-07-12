@@ -1,5 +1,5 @@
 # ReVanced eXtended Magisk Module
-[![CI](https://github.com/nathannxx/extended/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/nathannxx/extended/actions/workflows/ci.yml)
+[![Build](https://github.com/nathannxx/extended/actions/workflows/build.yml/badge.svg)](https://github.com/nathannxx/extended/actions/workflows/build.yml)
 
 Get the [latest CI release](https://github.com/nathannxx/extended/releases).
 
