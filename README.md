@@ -1,7 +1,7 @@
 # ReVanced eXtended Magisk Module
 [![Build](https://github.com/nathannxx/extended/actions/workflows/build.yml/badge.svg)](https://github.com/nathannxx/extended/actions/workflows/build.yml)
 
-Get the [latest CI release](https://github.com/nathannxx/extended/releases).
+Get the [latest release](https://github.com/nathannxx/extended/releases).
 
 <details><summary><big>Features</big></summary>
 <ul>
