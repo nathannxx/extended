@@ -17,5 +17,6 @@ excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for You
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v8a"
 build-mode = "module"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom package name' 'GmsCore support' 'SponsorBlock' 'Translations for YouTube Music'"
