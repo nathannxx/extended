@@ -1,11 +1,11 @@
 name: Build
 on:
   workflow_call:
-    inputs:
-      from_ci: 
-       type: boolean
-        required: false
-        default: true
+  inputs:
+    from_ci:
+      type: boolean
+      required: true
+      default: true
 
   workflow_dispatch:
 
