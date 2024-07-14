@@ -2,7 +2,7 @@ name: Build
 on:
   workflow_call:
     inputs:
-      from_ci: .github/workflows/ci.yml
+      from_ci: github/workflows/ci.yml
         type: boolean
         required: true
         default: true
