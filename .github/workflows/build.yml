@@ -3,9 +3,9 @@ name: Build
 on:
   workflow_call:
     inputs:
-      from_ci: true
+      from_ci:
         description: 'Indicates if the workflow was triggered from CI'
-        required: true
+        required: false
         type: boolean
         default: true
 
