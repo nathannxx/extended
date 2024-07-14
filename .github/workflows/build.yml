@@ -1,11 +1,13 @@
 name: Build
+
 on:
   workflow_call:
-  inputs:
-    from_ci:
-      type: boolean
-      required: true
-      default: true
+    inputs:
+      from_ci:
+        description: 'Indicates if the workflow was triggered from CI'
+        required: true
+        type: boolean
+        default: true
 
   workflow_dispatch:
 
