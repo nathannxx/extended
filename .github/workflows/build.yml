@@ -3,7 +3,7 @@ on:
   workflow_call:
     inputs:
       from_ci: 
-      type: boolean
+       type: boolean
         required: false
         default: true
 
