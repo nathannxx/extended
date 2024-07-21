@@ -3,7 +3,7 @@
 
 Get the [latest release](https://github.com/nathannxx/extended/releases).
 
-<details><summary><big>Features</big></summary>
+<summary><big>Features</big></summary>
 <ul>
  <li>Support all present and future ReVanced and <a href="https://github.com/inotia00/revanced-patches">ReVanced Extended</a> apps</li>
  <li> Can build Magisk modules and non-root APKs</li>
@@ -18,7 +18,6 @@ Get the [latest release](https://github.com/nathannxx/extended/releases).
      <li> support Magisk and KernelSU</li>
     </ul>
 </ul>
-</details>
 
 ## Credits
 [j-hc](https://github.com/j-hc) for [zygisk-detach](https://github.com/j-hc/zygisk-detach) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
