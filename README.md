@@ -16,6 +16,8 @@
     </ul>
 </ul>
 
+[![CI](https://github.com/nathannxx/extended/actions/workflows/ci.yml/badge.svg)](https://github.com/nathannxx/extended/actions/workflows/ci.yml)
+
 Get the [latest release](https://github.com/nathannxx/extended/releases).
 
 ## Credits
