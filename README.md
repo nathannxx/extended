@@ -1,7 +1,4 @@
 # ReVanced eXtended Magisk Module
-[![Build](https://github.com/nathannxx/extended/actions/workflows/build.yml/badge.svg)](https://github.com/nathannxx/extended/actions/workflows/build.yml)
-
-Get the [latest release](https://github.com/nathannxx/extended/releases).
 
 <summary><big>Features</big></summary>
 <ul>
@@ -18,6 +15,8 @@ Get the [latest release](https://github.com/nathannxx/extended/releases).
      <li> support Magisk and KernelSU</li>
     </ul>
 </ul>
+
+Get the [latest release](https://github.com/nathannxx/extended/releases).
 
 ## Credits
 [j-hc](https://github.com/j-hc) for [zygisk-detach](https://github.com/j-hc/zygisk-detach) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
