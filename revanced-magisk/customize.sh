@@ -134,7 +134,7 @@ ui_print "* Cleanup"
 rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
 
 for s in "uninstall.sh" "service.sh"; do
-	sed -i "2 i\NVBASE=/data/adb" "$MODPATH/$s"
+	sed -i "2 i\NVBASE=${NVBASE}" "$MODPATH/$s"
 done
 
 ui_print "* Done"
