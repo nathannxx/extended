@@ -1,3 +1,8 @@
+# FOR MAGISK CANARY USERS
+⚠️ if you have " apk not found " or " mounting failed " issue while installing the module
+you should try <a href="https://github.com/j-hc/revanced-magisk-module/issues/478#issuecomment-2246967004">this guide </a>
+or wait for topjohnwu (magisk) to fixing this issue
+
 # ReVanced eXtended Magisk Module
 
 <summary><big>Features</big></summary>
