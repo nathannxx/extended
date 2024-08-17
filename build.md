@@ -1,5 +1,7 @@
 Music: 7.13.52  
 YouTube: 19.16.39  
+
+Install [MicroG](https://github.com/ReVanced/GmsCore/releases) to be able to use non-root YouTube or YouTube-Music.  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
 
 [revanced-extended-magisk-module](https://github.com/nathannxx/extended)
