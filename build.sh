@@ -178,6 +178,7 @@ wait
 rm -rf temp/tmp.*
 if [ -z "$(ls -A1 ${BUILD_DIR})" ]; then abort "All builds failed."; fi
 
+log "\nInstall [MicroG](https://github.com/ReVanced/GmsCore/releases) to be able to use non-root YouTube or YouTube-Music."
 log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store"
 log "\n[revanced-extended-magisk-module](https://github.com/nathannxx/extended)\n"
 log "$(cat $TEMP_DIR/*-rv/changelog.md)"
