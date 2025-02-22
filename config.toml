@@ -9,8 +9,8 @@ cli-source = "j-hc/revanced-cli"
 
 rv-brand = "extended"
 
-patches-version = "dev"
-cli-version = "dev"
+patches-version = "latest"
+cli-version = "latest"
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
