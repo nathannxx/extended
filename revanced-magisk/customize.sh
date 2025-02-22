@@ -15,7 +15,7 @@ elif [ "$ARCH" = "x86" ]; then
 elif [ "$ARCH" = "x64" ]; then
 	ARCH_LIB=x86_64
 else abort "ERROR: unreachable: ${ARCH}"; fi
-RVPATH=/data/adb/rvhc/${MODPATH##*/}.apk
+RVPATH=/data/adb/xtnd/${MODPATH##*/}.apk
 
 set_perm_recursive "$MODPATH/bin" 0 0 0755 0777
 
@@ -107,9 +107,9 @@ install() {
 			if echo "$op" | grep -q INSTALL_FAILED_VERSION_DOWNGRADE; then
 				ui_print "* Handling INSTALL_FAILED_VERSION_DOWNGRADE.."
 				if [ "$IS_SYS" = true ]; then
-					mkdir -p /data/adb/rvhc/empty /data/adb/post-fs-data.d
+					mkdir -p /data/adb/xtnd/empty /data/adb/post-fs-data.d
 					SCNM="/data/adb/post-fs-data.d/$PKG_NAME-uninstall.sh"
-					echo "mount -o bind /data/adb/rvhc/empty $BASEPATH" >"$SCNM"
+					echo "mount -o bind /data/adb/xtnd/empty $BASEPATH" >"$SCNM"
 					chmod +x "$SCNM"
 					ui_print "* Created the uninstall script."
 					ui_print ""
@@ -160,8 +160,8 @@ ui_print "* Setting Permissions"
 set_perm "$MODPATH/base.apk" 1000 1000 644 u:object_r:apk_data_file:s0
 
 ui_print "* Mounting $PKG_NAME"
-mkdir -p "/data/adb/rvhc"
-RVPATH=/data/adb/rvhc/${MODPATH##*/}.apk
+mkdir -p "/data/adb/xtnd"
+RVPATH=/data/adb/xtnd/${MODPATH##*/}.apk
 mv -f "$MODPATH/base.apk" "$RVPATH"
 
 if ! op=$(mm mount -o bind "$RVPATH" "$BASEPATH/base.apk" 2>&1); then
@@ -181,5 +181,5 @@ if [ "$KSU" ] && [ -d "/data/adb/modules/zygisk-assistant" ]; then
 fi
 
 ui_print "* Done"
-ui_print "  by j-hc (github.com/j-hc)"
+ui_print "  by nathan (github.com/imnathanzero)"
 ui_print " "
