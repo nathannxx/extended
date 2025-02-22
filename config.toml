@@ -4,7 +4,7 @@ parallel-jobs = 1
 compression-level = 9
 remove-rv-integrations-checks = true
 
-patches-source = "revanced/revanced-patches"
+patches-source = "anddea/revanced-patches"
 cli-source = "j-hc/revanced-cli"
 
 rv-brand = "extended"
