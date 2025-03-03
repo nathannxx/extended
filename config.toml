@@ -19,7 +19,6 @@ arch = "arm64-v8a"
 build-mode = "both"
 included-patches = "'Custom branding icon for YouTube' 'MaterialYou'"
 excluded-patches = "'Translations for YouTube'"
-patcher-args = "-OappIcon=revancify_red "
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
@@ -28,4 +27,3 @@ arch = "arm64-v8a"
 build-mode = "both"
 included-patches = "'Custom branding icon for YouTube Music'"
 excluded-patches = "'SponsorBlock'"
-patcher-args = "-OappIcon=revancify_red "
