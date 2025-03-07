@@ -1,6 +1,6 @@
 {
-  "version": "v19.44.39 (patches: 5.4.1)",
-  "versionCode": 3,
-  "zipUrl": "https://github.com/imnathanzero/extended/releases/download/3/youtube-revanced-extended-magisk-v19.44.39-arm64-v8a.zip",
+  "version": "v19.44.39 (patches: 5.4.2)",
+  "versionCode": 4,
+  "zipUrl": "https://github.com/imnathanzero/extended/releases/download/4/youtube-revanced-extended-magisk-v19.44.39-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/imnathanzero/extended/update/build.md"
 }
