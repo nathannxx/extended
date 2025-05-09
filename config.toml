@@ -13,7 +13,7 @@ integrations-source = "anddea/revanced-integrations"
 rv-brand = "eXtended"
 build-mode = "both"
 arch = "arm64-v8a"
-included-patches = " 'MaterialYou'"
+included-patches = "'MaterialYou'"
 excluded-patches = "'Translations for YouTube'"
 
 [Music]
