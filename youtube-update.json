@@ -1,6 +1,6 @@
 {
-  "version": "v20.12.46 (patches: 5.22.0)",
+  "version": "v19.47.53 (patches: 3.8.0)",
   "versionCode": 8,
-  "zipUrl": "https://github.com/imnathanzero/extended/releases/download/8/youtube-revanced-magisk-v20.12.46-all.zip",
+  "zipUrl": "https://github.com/imnathanzero/extended/releases/download/8/youtube-extended-magisk-v19.47.53-all.zip",
   "changelog": "https://raw.githubusercontent.com/imnathanzero/extended/update/build.md"
 }
