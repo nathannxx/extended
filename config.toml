@@ -6,22 +6,25 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+integrations-source = "anddea/revanced-integrations"
+
+rv-brand = "eXtended"
+
+patches-version = "latest"
+cli-version = "latest"
+
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-rv-brand = "eXtended"
-build-mode = "both"
 arch = "arm64-v8a"
-included-patches = "'MaterialYou'"
-excluded-patches = "'Translations for YouTube'"
+build-mode = "module"
+included-patches = "'Custom branding icon for YouTube' 'Custom header for YouTube' 'MaterialYou'"
+excluded-patches = "'GmsCore support' 'Translations for YouTube'"
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-rv-brand = "eXtended"
-build-mode = "both"
 arch = "arm64-v8a"
-included-patches = "'Disable music video in album'"
-excluded-patches = "'SponsorBlock' 'Translations for YouTube Music'"
+build-mode = "module"
+included-patches = "'Custom branding icon for YouTube Music' 'Custom header for YouTube Music' 'Disable music video in album'"
+excluded-patches = "'GmsCore support' 'SponsorBlock'"
