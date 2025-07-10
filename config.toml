@@ -12,7 +12,7 @@ integrations-source = "anddea/revanced-integrations"
 
 rv-brand = "eXtended"
 
-patches-version = "latest"
+patches-version = "dev"
 cli-version = "latest"
 
 [YouTube]
