@@ -1,6 +1,6 @@
 {
-  "version": "v19.47.53 (patches 3.13.0)",
-  "versionCode": 22,
-  "zipUrl": "https://github.com/imnathanzero/extended/releases/download/22/youtube-extended-magisk-v19.47.53-arm64-v8a.zip",
+  "version": "v20.05.46 (patches dev.1)",
+  "versionCode": 23,
+  "zipUrl": "https://github.com/imnathanzero/extended/releases/download/23/youtube-extended-magisk-v20.05.46-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/imnathanzero/extended/update/build.md"
 }
