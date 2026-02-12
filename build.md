@@ -1,8 +1,8 @@
-Music: 8.30.54  
-YouTube: 20.05.46  
+Music (arm64-v8a): 8.30.54  
+Music (arm-v7a): 8.30.54  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
 
-[revanced-extended-magisk-module](https://github.com/imnathanzero/extended)
+[revanced-extended-magisk-module](https://github.com/nathannxx/extended)
   
 CLI: inotia00/revanced-cli-5.0.2-all.jar  
 Patches: anddea/patches-3.16.0-dev.2.rvp  
