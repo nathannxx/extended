@@ -15,7 +15,7 @@ elif [ "$ARCH" = "x86" ]; then
 elif [ "$ARCH" = "x64" ]; then
 	ARCH_LIB=x86_64
 else abort "ERROR: unreachable: ${ARCH}"; fi
-RVPATH=/data/adb/rvhc/${MODPATH##*/}.apk
+RVPATH=/data/adb/rvnx/${MODPATH##*/}.apk
 
 set_perm_recursive "$MODPATH/bin" 0 0 0755 0777
 
@@ -109,8 +109,8 @@ install() {
 						install_err=" "
 						break
 					fi
-					mkdir -p /data/adb/rvhc/empty /data/adb/post-fs-data.d
-					echo "mount -o bind /data/adb/rvhc/empty $BASEPATH" >"$SCNM"
+					mkdir -p /data/adb/rvnx/empty /data/adb/post-fs-data.d
+					echo "mount -o bind /data/adb/rvnx/empty $BASEPATH" >"$SCNM"
 					chmod +x "$SCNM"
 					ui_print "* Created the uninstall script."
 					ui_print ""
@@ -161,8 +161,8 @@ ui_print "* Setting Permissions"
 set_perm "$MODPATH/base.apk" 1000 1000 644 u:object_r:apk_data_file:s0
 
 ui_print "* Mounting $PKG_NAME"
-mkdir -p "/data/adb/rvhc"
-RVPATH=/data/adb/rvhc/${MODPATH##*/}.apk
+mkdir -p "/data/adb/rvnx"
+RVPATH=/data/adb/rvnx/${MODPATH##*/}.apk
 mv -f "$MODPATH/base.apk" "$RVPATH"
 
 if ! op=$(mm mount -o bind "$RVPATH" "$BASEPATH/base.apk" 2>&1); then
@@ -195,5 +195,5 @@ fi
 rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
 
 ui_print "* Done"
-ui_print "  by nathan (github.com/imnathanzero)"
+ui_print "  by nathan (github.com/nathannxx)"
 ui_print " "
