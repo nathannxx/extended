@@ -17,6 +17,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 github-release-dlurl = "https://github.com/AzyrRuthless/YTYTM-APK/releases/latest"
 included-patches = "'MaterialYou'"
 excluded-patches = "'Translations for YouTube'"
+version = "20.40.45"
 
 
 [Music]
@@ -33,3 +34,4 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 github-release-dlurl = "https://github.com/AzyrRuthless/YTYTM-APK/releases/latest"
 included-patches = "'Disable music video in album'"
 excluded-patches = "'SponsorBlock' 'Translations for YouTube Music'"
+version = "8.40.54"
